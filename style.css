@@ -36,3 +36,66 @@ a {
     font-size: 18px;
     gap: 16px;
 }
+
+/* styling introduction section */
+
+.intro {
+    display: flex;
+    background-color: #1f2937;
+    padding-bottom: 90px;
+    /* trying to center both containers */
+    justify-content: space-evenly;
+
+    padding-top: 90px;
+}
+
+.left-intro {
+    flex: 1;
+    /* centering all contents in the container */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 500px;
+    /* border: orangered solid 3px; */
+    padding-left: 190px;
+    gap: 16px;
+
+}
+
+.right-intro {
+    flex: 1;
+    /* centring image */
+    display: flex;
+    justify-content: center;
+    /* border: orangered solid 3px; */
+}
+
+/* styling intro texts */
+
+h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882f6;
+    padding: 8px;
+    /* rounded corners */
+    border-radius: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+img {
+    max-height: 220px;
+    width: 580px;
+    /* +++ need to increase width of image +++ */
+}
