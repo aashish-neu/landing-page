@@ -216,3 +216,13 @@ img {
 .action-button {
     border-color: #f9faf8;
 }
+
+/* flex container for footer starts here */
+
+.flex-footer {
+    background-color: #1e2937;
+    display: flex;
+    justify-content: center;
+    min-height: 50px;
+    align-items: center;
+}
