@@ -99,3 +99,56 @@ img {
     width: 580px;
     /* +++ need to increase width of image +++ */
 }
+
+/* styling cards container */
+
+.flex-products-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 30px;
+}
+
+#information-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    padding-top: 30px;
+    /* border: orange solid 3px; */
+    text-align: center;
+}
+
+.flex-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* border: orange solid 3px; */
+    
+}
+
+.subtext {
+    color: #1f2937;
+    /* making the subtext center and align with image */
+    max-width: 150px;
+
+}
+
+/* sizing container for image and text */
+.flex-image-with-info {
+    /* border: orangered solid 3px; */
+    /* max-width: 100px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* sizing image */
+.info-image {
+    max-width: 150px;
+    min-height: 150px;
+    border: #3882f6 solid 3px;
+    border-radius: 12px;
+}
