@@ -172,7 +172,7 @@ img {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    max-width: 700px;
+    max-width: 600px;
     font-size: 30px;
     font-style: italic;
     margin-top: 100px;
@@ -185,4 +185,34 @@ img {
     margin-bottom: 100px;
     margin-right: 380px;
     font-size: 20px;
+}
+
+/* sytling for call to action section starts here */
+.flex-sign-container {
+    display: flex;
+    background-color: #3882f6;
+    /* centering by margin */
+    margin: 100px;
+    border-radius: 12px;
+    min-height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-sign {
+    flex: 3;
+    padding: 50px;
+}
+
+.right-sign {
+    flex:1;
+}
+
+.action-header {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.action-button {
+    border-color: #f9faf8;
 }
